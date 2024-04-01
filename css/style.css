@@ -1,0 +1,88 @@
+:root {
+    --main-color: #1F4296;
+    --white: #FFFFFF;
+    --pharagraphs-color:#9B9B9B;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Kufi Arabic", sans-serif;
+    height: 10000px;
+}
+
+/* Start Header Styling */
+
+nav{
+    z-index: 9999;
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+}
+
+nav .logo{
+    width: 170px;
+}
+
+nav .nav-item{
+    margin-right: 20px;
+}
+
+.nav-link{
+    color: var(--pharagraphs-color);
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-link.active{
+    color: var(--main-color);
+}
+
+.nav-link:hover{
+    color: #1F4296 !important;
+}
+
+nav select{
+    padding: 0px 20px;
+    background-color: var(--main-color);
+    color: var(--white);
+    border: none;
+    outline: none;
+}
+
+
+nav select:focus{
+    outline: none;
+}
+
+/* End Header Styling */
+
+/* Start Main Styling */
+
+main{
+    z-index: 1;
+}
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .swiper-slide img{
+    width: 100%;
+  }
+
+
+
+
+
+/* End Main Styling */
+
+
+
